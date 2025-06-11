@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/font/font/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.cssé">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Millenion tarbernacle</title>
 </head>
 <body>
-    <body>
   
   
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
@@ -33,34 +32,31 @@
           <a class="nav-link text-primary" href="#home">Notre Église</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#About">About</a>
+          <a class="nav-link text-primary" href="#About">À propos de nous</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Culte</a>
+          <a class="nav-link text-primary" href="#Culte">Culte</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Ressources</a>
+          <a class="nav-link text-primary" href="#Ressources">Ressources</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Multimédia</a>
+          <a class="nav-link text-primary" href="#Multimédia">Multimédia</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-primary" href="#">Formation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Donation</a>
+          <a class="nav-link text-primary" href="#Donation">Donation</a>
         </li>
       </ul>
-      <form class="d-flex me-2" role="search">
-        <input class="form-control form-control-sm me-2" type="search" placeholder="Recherche..." aria-label="Recherche">
-        <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fa fa-search"></i></button>
-      </form>
       <a href="#contact" class="btn btn-primary btn-sm d-none d-lg-inline ms-2">
         <i class="fa fa-envelope"></i> Contact
       </a>
     </div>
   </div>
 </nav>
+<br><br><br>
   <main>
 
         <!--################# Banner #################-->
@@ -83,6 +79,8 @@
         <!--############# About #################-->
 
 <div class="container my-5" id="About">
+<h2 class="fw-bold text-center mb-5 text-primary underline">À propos de notre église</h2>
+
   <div class="row align-items-center gy-4 flex-column-reverse flex-md-row">
     <div class="col-md-6 text-center text-md-start">
       <h2 class="fw-bold mb-3 text-primary">Qui sommes-nous ?</h2>
@@ -115,7 +113,7 @@
     </div>
     <div class="col-lg-4 mb-4">
       <div class="card border-0 shadow text-center h-100">
-        <img src="assets/img/MT1.jpg" class="card-img-top rounded-circle mx-auto mt-4" alt="Marie Dupont" style="width: 120px; height: 120px; object-fit: cover;">
+        <img src="assets/img/logo.jpg" class="card-img-top rounded-circle mx-auto mt-4" alt="Marie Dupont" style="width: 120px; height: 120px; object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title mb-1">Marie Dupont</h5>
           <p class="text-muted mb-2">Responsable jeunesse</p>
@@ -140,7 +138,7 @@
 
             <!--############# Notre programme #################-->
 
-        <div class="container my-5">
+        <div class="container my-5" id="Culte">
   <h2 class="fw-bold text-center mb-4 text-primary">Notre programme</h2>
   <div class="row g-4 justify-content-center">
     <div class="col-md-4">
@@ -187,7 +185,7 @@
 
             <!--############# Ressources spirituelles ################-->
 
-<section class="section-3">
+<section class="section-3" id="Ressources">
   <div class="container">
     <div class="body">
       <div class="title text-center mb-5">
@@ -268,7 +266,7 @@
 </section>
 
 <!-- ===== Galerie de l'église ===== -->
-<section class="container my-5">
+<section class="container my-5" id="Multimédia">
   <div class="text-center mb-5">
     <h2 class="fw-bold text-primary">Galerie de l'église</h2>
     <p class="text-muted">Découvrez quelques moments forts de notre communauté</p>
@@ -291,7 +289,7 @@
 </section>
 
 
-<section class="py-5 bg-light">
+<section class="py-5 bg-light" id="Donation">
   <div class="container">
     <div class="row justify-content-center mb-4">
       <div class="col-lg-8">
@@ -316,7 +314,7 @@
         </div>
       </div>
     </div>
-    <section id="contact" class="container py-5">
+    <section id="" class="container py-5">
   <h2 class="text-center mb-4">Contact & Soutien</h2>
   <form action="contact.php" method="POST" class="mx-auto bg-white rounded shadow p-4" style="max-width: 600px;">
     <div class="row g-3">
@@ -403,8 +401,9 @@
   </form>
 </section>
         </main>
-<footer>
- <footer class="bg-primary text-white pt-5 pb-3 mt-5">
+<!-- ...existing code... -->
+<!-- Corrige la structure du footer et évite le débordement horizontal -->
+<footer class="bg-primary text-white pt-5 pb-3 mt-5">
   <div class="container">
     <div class="row">
       <!-- Navigation rapide -->
@@ -413,8 +412,10 @@
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50">Accueil</a></li>
           <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-white-50">Notre Église</a></li>
-          <li class="nav-item mb-2"><a href="#programme" class="nav-link p-0 text-white-50">Programme</a></li>
-          <li class="nav-item mb-2"><a href="#ressources" class="nav-link p-0 text-white-50">Ressources</a></li>
+          <li class="nav-item mb-2"><a href="#Culte" class="nav-link p-0 text-white-50">Culte</a></li>
+          <li class="nav-item mb-2"><a href="#Ressources" class="nav-link p-0 text-white-50">Ressources</a></li>
+          <li class="nav-item mb-2"><a href="#Multimédia" class="nav-link p-0 text-white-50">Multimédia</a></li>
+          <li class="nav-item mb-2"><a href="#Donation" class="nav-link p-0 text-white-50">Donation</a></li>
           <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-white-50">Contact</a></li>
         </ul>
       </div>
@@ -450,14 +451,18 @@
     </div>
   </div>
 </footer>
-<!-- <script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  // Animation sur les sections principales
-  ScrollReveal().reveal('.banner', { duration: 1200, origin: 'top', distance: '60px', easing: 'ease-in-out', reset: false });
-  ScrollReveal().reveal('.card, .gallery-img', { duration: 1000, origin: 'bottom', distance: '40px', interval: 120, easing: 'ease-in-out', reset: false });
-  ScrollReveal().reveal('.section-3, .container.my-5, .py-5.bg-light', { duration: 1200, origin: 'left', distance: '60px', easing: 'ease-in-out', reset: false });
-  ScrollReveal().reveal('footer', { duration: 1200, origin: 'bottom', distance: '40px', easing: 'ease-in-out', reset: false });
-</script> -->
+<!-- ...existing code... -->
+<!-- Ajoute ce style pour éviter le scroll horizontal sur mobile -->
+<style>
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  /* Dans ton style.css */
+h2 .underline {
+  text-decoration: underline;
+}
+</style>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script>
   // Animation sur les sections principales avec reset à true pour rejouer à chaque scroll
@@ -473,5 +478,4 @@
     reset: true
   });
 </script>
-</footer>
-
+<!-- ...existing code... -->
